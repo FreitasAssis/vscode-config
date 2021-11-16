@@ -42,6 +42,20 @@ Estas são as configurações que gosto de usar, alguns plugins, fontes...
 
     // Define o tema dos ícones na sidebar
     "workbench.iconTheme":"material-icon-theme",
-    "tabnine.experimentalAutoImports": true
+    "tabnine.experimentalAutoImports": true,
+    "git.enableSmartCommit": true,
+    "git.autofetch": true,
+    "git.confirmSync": false,
+
+     //Prettier
+     "editor.formatOnSave": true,
+     "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+     },
+     "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "javascript.updateImportsOnFileMove.enabled": "always"
   }
 ```
